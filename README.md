@@ -8,19 +8,15 @@ A high-concurrency polling system built with Node.js, Kafka, Socket.IO, and Post
 - Real-time vote updates using WebSocket (Socket.IO)
 - High-concurrency vote handling with Kafka
 - Persistent storage with PostgreSQL
-- Cross-browser compatibility
-- Responsive UI design
 - Vote tracking to prevent duplicate votes
 - Real-time vote count and percentage updates
 
 ## Tech Stack
 
 - **Backend**: Node.js with TypeScript
-- **Frontend**: Next.js 14 with React
 - **Database**: PostgreSQL
 - **Message Broker**: Kafka with Zookeeper
 - **Real-time Communication**: Socket.IO
-- **Styling**: Tailwind CSS
 - **Containerization**: Docker & Docker Compose
 
 ## Prerequisites
@@ -113,7 +109,6 @@ npm run dev
 ```
 
 The application will be available at:
-- Frontend: http://localhost:3000
 - Backend API: http://localhost:8000
 - Socket.IO: ws://localhost:8000
 
@@ -225,7 +220,3 @@ The system implements comprehensive error handling for:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
